@@ -13,7 +13,6 @@ __pycache__
 .python-version
 .python-version
 
-*.ipynb
 .ipynb_checkpoints/
 
 *.rdb
@@ -23,3 +22,6 @@ dist/
 *.egg-info
 
 *.rdb
+*.csv
+*.pkl
+*.h5
