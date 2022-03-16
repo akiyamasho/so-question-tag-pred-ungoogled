@@ -1,0 +1,22 @@
+{
+  "include": [
+    "src",
+  ],
+
+  "exclude": [
+    "**/node_modules",
+    "**/.ipynb_checkpoints",
+    "**/.history",
+    "**/__pycache__",
+    "**/.vscode",
+    "**/.pytest_cache",
+  ],
+
+  "stubPath": "src/stubs",
+  "venv": "env",
+
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+
+  "pythonVersion": "3.8",
+}
